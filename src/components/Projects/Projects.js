@@ -11,7 +11,7 @@ import s7 from "../../Assets/s7.png";
 import s8 from "../../Assets/s8.png";
 import s9 from "../../Assets/s9.png";
 // import s8 from "../../Assets/s8.png";
-
+const imgPathInst = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.news18.com%2Ftech%2Finstagram-reduced-video-quality-follow-these-steps-to-start-uploading-high-quality-photos-videos-8753191.html&psig=AOvVaw3mFvdKV-rXiVB1sEvpgSQ-&ust=1715501491579000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMihh5qThYYDFQAAAAAdAAAAABAE";
 
 function Projects() {
   return (
@@ -80,7 +80,7 @@ function Projects() {
           For more <strong className="purple"> content </strong>  visit
         </h1>
         <Row>
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
               imgPath={s8}
               isBlog={false}
@@ -88,15 +88,7 @@ function Projects() {
               demoLink="https://www.youtube.com/@desicelebritysbasant1127"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={s9}
-              isBlog={false}
-              title="My Insta"
-              demoLink="https://www.instagram.com/p/C0jWQSlyf5r/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
               imgPath={s9}
               isBlog={false}
@@ -104,6 +96,23 @@ function Projects() {
               demoLink="https://www.youtube.com/@STRA447"
             />
           </Col>
+          <Col md={3} className="project-card">
+            <ProjectCard
+              imgPath={s9}
+              isBlog={false}
+              title="My Insta 1"
+              demoLink="https://www.instagram.com/p/C0jWQSlyf5r/"
+            />
+          </Col>
+          <Col md={3} className="project-card">
+            <ProjectCard
+              imgPath={s8}
+              isBlog={false}
+              title="My Insta 2"
+              demoLink="https://www.youtube.com/@STRA447"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
